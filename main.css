@@ -5,7 +5,7 @@
 
 .logo {
     color: #f89513;
-    font-family: 'gora free regular', serif;
+    font: 'gora free regular', ;
 }
 
 .menu {}
@@ -36,4 +36,12 @@
 
 .contacts__desc {
     color: #b46f14;
+}
+.maincontent{
+
+}
+.image {
+    height: 614px;
+    background: #ffffff;
+    
 }
