@@ -1,0 +1,39 @@
+.header {
+    height: 68px;
+    background-color: #131415;
+}
+
+.logo {
+    color: #f89513;
+    font-family: 'gora free regular', serif;
+}
+
+.menu {}
+
+.header__menu {
+    list-style-type: none;
+}
+
+.menu__item {}
+
+.menu__icon {
+    float: left;
+}
+
+.menu__text {
+    color: #ffffff;
+    font-family: 'opensans-boled', sans-serif;
+}
+
+.contacts {
+    position: relative;
+}
+
+.contacts-phone {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.contacts__desc {
+    color: #b46f14;
+}
