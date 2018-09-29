@@ -22,7 +22,7 @@
 
 .menu__text {
     color: #ffffff;
-    font-family: 'opensans-boled', sans-serif;
+    font-family: 'open sans boled', sans-serif;
 }
 
 .contacts {
@@ -41,7 +41,20 @@
 
 }
 .image {
-    height: 614px;
+    height: 624px;
     background: #ffffff;
+
+}
+.features{
+    height: 570px;
+    background: #131415
+}
+.features__name {
+    color: #ffffff;
+    font-family: 'open sans boled', sans-serif;
+    text-align: center;
     
+}
+.features__main {
+
 }
