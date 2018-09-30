@@ -1,3 +1,13 @@
+body {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    margin: 0;
+}
+
+.header.container {
+    position: relative;
+    height: 76px;
+}
+
 header {
     height: 76px;
     background-color: #131415;
@@ -11,14 +21,11 @@ header {
     position: absolute;
     margin-top: 30px;
     margin-left: 19px;
-    
-
-    
-    
 }
 
 .menu {
     text-decoration: none;
+    display: inline;
 }
 
 .header__menu {
@@ -35,29 +42,25 @@ header {
     color: #ffffff;
     font-family: 'OpenSans', Helvetica, sans-serif;
     text-decoration: none;
-
 }
 
 .contacts {
-    position: relative;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    text-align: right;
 }
 
 .contacts__phone {
-    color: red;
+    color: #ffffff;
     text-decoration: none;
-    text-align: right;
     font-size: 21px;
-    font-family: "Open Sans";
     font-weight: bold;
-    text-transform: uppercase;
-    position: absolute;
-    right:21px;
-    top:10px;
 }
 
 .contacts__desc {
     color: #b46f14;
-    text-align: right;
+    font-size: 14px;
 }
 
 .maincontent {}
@@ -69,8 +72,10 @@ header {
 }
 
 .features {
-    height: 570px;
-    background: #131415
+    min-width: 1100px;
+    background: #131415;
+    height:570px;
+    color: #ffffff;
 }
 
 .features__name {
@@ -79,17 +84,30 @@ header {
     text-align: center;
 }
 
-.features__main {}
+.features__main {
+    display: inline-block;
+    margin: 70px;
+
+}
 
 .features__item {}
 
 .features__title {
     color: #ffffff;
-    font-family: 'OpenSans Extraboled', helvetica, sans-serif;
+    font-family: 'OpenSans', helvetica, sans-serif;
+    font-style: bold;
+    text-align: center;
+}
+
+.features__p {
+    color: #ffffff;
+    text-align: center;
+ 
 }
 
 .features__list {
     color: #ffffff;
+    
 }
 
 .news {
@@ -103,8 +121,26 @@ header {
     font-family: 'OpenSans bold' serif;
     text-align: center;
 }
-.news__list-image1{
-    border-radius: 40px
+
+.news__list-image1 {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.news__list-image2 {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.news__list-image3 {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    overflow: hidden;
 }
 
 .news__text-paragraph1 {
@@ -148,7 +184,9 @@ header {
     height: 166px;
     z-index: 51;
 }
-
+.news__list {
+    list-style: none;
+}
 .footer {
     height: 75px;
     background: #131415
