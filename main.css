@@ -3,9 +3,9 @@
     background-color: #131415;
 }
 
-.logo {
+.logo__link {
     color: #f89513;
-    font: 'gora free regular', ;
+    font-family: gora-free,  ;
 }
 
 .menu {}
@@ -51,19 +51,18 @@
 }
 .features__name {
     color: #ffffff;
-    font-family: 'open sans boled', sans-serif;
+    font-family: 'opensans', helvetica, sans-serif;
     text-align: center;
     
 }
 .features__main {
-
 }
 .features__item{
 
 }
 .features__title{
     color: #ffffff;
-    font-family: 'OpenSans Extraboled', sans-serif;
+    font-family: 'OpenSans Extraboled', helvetica, sans-serif;
 }
 .features__list{
         color: #ffffff;
