@@ -65,10 +65,18 @@ header {
 
 .maincontent {}
 
-.image {
+.image__container {
     height: 624px;
     background: #ffffff;
-    background-position: center
+   
+
+    
+    
+    
+}
+.image {
+   
+
 }
 
 .features {
@@ -86,11 +94,15 @@ header {
 
 .features__main {
     display: inline-block;
-    margin: 70px;
+    padding: 20px;
+    vertical-align: middle
+
 
 }
 
-.features__item {}
+.features__item {
+    list-style: none
+}
 
 .features__title {
     color: #ffffff;
@@ -102,6 +114,8 @@ header {
 .features__p {
     color: #ffffff;
     text-align: center;
+    font-size: 14px;
+    
  
 }
 
@@ -189,5 +203,20 @@ header {
 }
 .footer {
     height: 75px;
-    background: #131415
+    background: #131415;
+    color: #ffffff;
+    
+}
+address{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    
+
+}
+[href="https://loftschool.com/"]{
+color: #ffffff;
+font-style: bold ;
+}
+.networks__list{
+    display:inline;
 }
