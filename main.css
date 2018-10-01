@@ -1,22 +1,57 @@
-body {
-    font-family: 'Open Sans', Helvetica, sans-serif;
-    margin: 0;
+@font-face {
+    font-family: 'gora_freeregular';
+    src: url('gora-free-webfont.woff2') format('woff2'), url('gora-free-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
-.header.container {
+@font-face {
+    font-family: 'open_sansextrabold';
+    src: url('opensans-extrabold-webfont.woff2') format('woff2'), url('opensans-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('opensans-bold-webfont.woff2') format('woff2'), url('opensans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('opensans-regular-webfont.woff2') format('woff2'), url('opensans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'open_sansregular', Helvetica, sans-serif;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+.header.container{
     position: relative;
-    height: 76px;
+    min-height: 76px;
 }
 
 header {
     height: 76px;
     background-color: #131415;
-    position: relative
+    position: relative;
+    margin-bottom: 80px;
 }
 
 .logo__link {
     color: #f89513;
-    font-family: 'gora-free', serif;
+    font-family: 'gora_freeregular', serif;
     text-decoration: none;
     position: absolute;
     margin-top: 30px;
@@ -24,24 +59,31 @@ header {
 }
 
 .menu {
+    color: #ffffff;
     text-decoration: none;
-    display: inline;
+    display: inline-block;
 }
 
 .header__menu {
     list-style-type: none;
+    display: inline-block;
+
 }
 
-.menu__item {}
+.menu__item {
+    display: inline-block;
+}
 
 .menu__icon {
     float: left;
+    display: inline-block;
 }
 
 .menu__text {
-    color: #ffffff;
-    font-family: 'OpenSans', Helvetica, sans-serif;
+    color: #ffff;
+    font-family: 'open_sansregular', Helvetica, sans-serif;
     text-decoration: none;
+    display: inline-block;
 }
 
 .contacts {
@@ -68,27 +110,22 @@ header {
 .image__container {
     height: 624px;
     background: #ffffff;
-   
-
-    
-    
-    
 }
-.image {
-   
 
+.image {
+    position: absolute;
 }
 
 .features {
     min-width: 1100px;
     background: #131415;
-    height:570px;
+    height: 570px;
     color: #ffffff;
 }
 
 .features__name {
     color: #ffffff;
-    font-family: 'OpenSans', helvetica, sans-serif;
+    font-family: 'open_sansregular', helvetica, sans-serif;
     text-align: center;
 }
 
@@ -96,8 +133,6 @@ header {
     display: inline-block;
     padding: 20px;
     vertical-align: middle
-
-
 }
 
 .features__item {
@@ -106,8 +141,8 @@ header {
 
 .features__title {
     color: #ffffff;
-    font-family: 'OpenSans', helvetica, sans-serif;
-    font-style: bold;
+    font-family: 'open_sansregular', helvetica, sans-serif;
+    font-weight: bold;
     text-align: center;
 }
 
@@ -115,13 +150,10 @@ header {
     color: #ffffff;
     text-align: center;
     font-size: 14px;
-    
- 
 }
 
 .features__list {
     color: #ffffff;
-    
 }
 
 .news {
@@ -198,25 +230,27 @@ header {
     height: 166px;
     z-index: 51;
 }
+
 .news__list {
     list-style: none;
 }
+
 .footer {
     height: 75px;
     background: #131415;
     color: #ffffff;
-    
 }
-address{
+
+address {
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
-    
+}
 
+[href="https://loftschool.com/"] {
+    color: #ffffff;
+    font-style: bold;
 }
-[href="https://loftschool.com/"]{
-color: #ffffff;
-font-style: bold ;
-}
-.networks__list{
-    display:inline;
+
+.networks__list {
+    display: inline;
 }
