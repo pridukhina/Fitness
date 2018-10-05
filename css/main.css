@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'gora_freeregular';
-    src: url('gora-free-webfont.woff2') format('woff2'), url('gora-free-webfont.woff') format('woff');
+    src: url('https://github.com/pridukhina/Fitness/blob/master/fonts/gora-free-webfont.woff2') format('woff2'), url('https://github.com/pridukhina/Fitness/blob/master/fonts/gora-free-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -258,7 +258,7 @@ header {
 
 .footer {
     height: 75px;
-    background: #131415;
+    background-color: #131415;
     color: #ffffff;
     position: relative;
     margin-bottom: 0px;
@@ -276,23 +276,27 @@ address {
 [href="https://loftschool.com/"] {
     color: #ffffff;
     font-style: bold;
+    
 }
 
 .networks {
     display: inline-block;
     position: absolute;
+    margin: 0;
+    padding: 0;
+    
     
 }
 
 .networks__elem {
     display: inline-block;
+  
    
 }
 
 .networks__list {
     display: inline-block;
-    margin: 0px;
-    padding: 0px;
+ 
  
 }
 
@@ -303,11 +307,14 @@ address {
     
 }
 
-.networks__link {
+.networks__icon {
     display: inline-block;
     width: 20px;
     height: 20px;
     border-radius: 50%;
     overflow: hidden;
-
+    background: #ffffff;
+    background-position: center center;
+    background-repeat: no-repeat
+   
 }
