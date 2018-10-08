@@ -26,12 +26,22 @@
     font-style: normal;
 }
 
-body {
+
+
+
+.body {
     font-family: 'open_sansregular', Helvetica, sans-serif;
     margin: 0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+.wrapper{
+
+}
+.wrapper__content{
+
+}
+
 
 .container {
     width: 1100px;
@@ -43,14 +53,14 @@ body {
     min-height: 76px;
 }
 
-header {
+.header {
     height: 76px;
     background-color: #131415;
     position: relative;
     margin-bottom: 80px;
 }
 
-.header.logo__link {
+.logo {
 
         position: absolute;
         top: 31px;
@@ -63,6 +73,10 @@ header {
         font-family: "gora_freeregular";
         font-size: 18px;
 }
+.header__menu {
+    list-style-type: none;
+    display: inline-block;
+}
 
 .menu {
     color: #ffffff;
@@ -70,8 +84,7 @@ header {
     display: inline-block;
 }
 
-.header__menu {
-    list-style-type: none;
+.menu__list{
     display: inline-block;
 }
 
@@ -84,7 +97,7 @@ header {
     display: inline-block;
 }
 
-.menu__text {
+.menu__list-text {
     color: #ffff;
     font-family: 'open_sansregular', Helvetica, sans-serif;
     text-decoration: none;
@@ -112,12 +125,16 @@ header {
 
 .maincontent {}
 
-.image__container {
+.container__image {
     height: 624px;
     background: #ffffff;
+    position: relative;
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-bottom: 60px;
 }
 
-.image {
+.container__image-main {
     position: absolute;
 }
 

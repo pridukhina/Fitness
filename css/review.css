@@ -1,0 +1,35 @@
+.header {
+    height: 76px;
+    background-color: #131415;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.header__menu{
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+.pagination{
+    display: flex;
+    justify-content: center;
+    flex-direction: row
+}
+.pagination__elem{
+    display: flex;
+    justify-content: center;
+    flex-direction: row
+}
+.pagination__item{
+    display: flex;
+    justify-content: center;
+    flex-direction: row
+
+}
+.pagination__link{
+    display: flex;
+    justify-content: center;
+    flex-direction: row
+
+}
